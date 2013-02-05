@@ -39,5 +39,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".KeyFileList"
+                  android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>

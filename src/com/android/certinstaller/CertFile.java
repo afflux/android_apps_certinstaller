@@ -47,7 +47,7 @@ public class CertFile extends PreferenceActivity implements FileFilter {
     private static final int MAX_FILE_SIZE = 1000000;
     protected static final int REQUEST_INSTALL_CODE = 1;
 
-    private File mCertFile;
+    protected File mCertFile;
 
     @Override
     protected void onSaveInstanceState(Bundle outStates) {
